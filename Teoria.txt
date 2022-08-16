@@ -1,13 +1,27 @@
 Con tus propias palabras completa las siguientes preguntas:
 
 - Pilas(Stacks)
+ Son estructuras de datos que permiten almacenar y recuperar datos de forma ordenada, usando el principio de LIFO (Last In, First Out).
+ El último dato que se introduce es el primero en salir.
 
 - Queue(colas)
+ Los Queue son una estructura de datos donde el primer elemento en entrar es el primero en salir.
 
 - enqueue
+    Es el método que se utiliza para agregar un elemento a la cola.
 
 - dequeue
+    Es el método que se utiliza para eliminar un elemento de la cola.
 
 - sets
+ Un set es una colección de elementos no ordenados y sin elementos repetidos.
 
 - Explica por lo menos 3 instancias de los sets.
+    Set.prototype.add(value) : Agrega un nuevo elemento con el valor especificado al objeto Set.
+    Set.prototype.clear() : Elimina todos los elementos de un objeto Set.
+    Set.prototype.delete(value) : Elimina el elemento especificado del objeto Set.
+    Set.prototype.has(value) : Devuelve un booleano indicando si un valor existe en un objeto Set o no.
+    Set.prototype.values() : Devuelve un nuevo objeto Iterator que contiene los valores para cada elemento en el objeto Set en el orden de inserción.
+    Set.prototype.entries() : Devuelve un nuevo objeto Iterator que contiene los pares clave/valor para cada elemento en el objeto Set en el orden de inserción.
+    Set.prototype.forEach(callbackFn[, thisArg]) : Ejecuta la función callbackFn una vez por cada valor presente en el objeto Set, en orden de inserción.
+     Si se proporciona un parámetro thisArg a forEach, se usará como this para cada callbackFn.
